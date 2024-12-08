@@ -25,7 +25,7 @@ const characters = [
         "id": 5,
         "name": "Penny Prowess",
         "description": "A determined and fierce woman, rocking a ponytail even while pregnant. She is a force to be reckoned with!"
-    },s
+    },
     {
         "id": 6,
         "name": "Axel Frost",
