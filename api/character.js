@@ -4,7 +4,7 @@ const characters = [
     {
         "id": 1,
         "name": "Zeke Zenith",
-        "description": "A bald visionary who uses his keen intellect and charm to inspire those around him. He’s always one step ahead."
+        "description": "A bald visionary who uses his keen intellect and charm to inspire those around him. He is always one step ahead."
     },
     {
         "id": 2,
@@ -24,7 +24,7 @@ const characters = [
     {
         "id": 5,
         "name": "Penny Prowess",
-        "description": "A determined and fierce woman, rocking a ponytail even while pregnant. She’s a force to be reckoned with!"
+        "description": "A determined and fierce woman, rocking a ponytail even while pregnant. She is a force to be reckoned with!"
     },s
     {
         "id": 6,
