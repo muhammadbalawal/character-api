@@ -46,6 +46,11 @@ const characters = [
 
 // Handle GET request
 module.exports = (req, res) => {
+    // Enable CORS
+    res.setHeader('Access-Control-Allow-Origin', '*');  // Allow requests from any origin
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');  // Allow specific methods
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');  // Allow headers
+
     const { id } = req.query;
 
     if (id) {
@@ -53,7 +58,7 @@ module.exports = (req, res) => {
         if (character) {
             return res.status(200).json(character);
         } else {
-            return res.status(404).json({ message: "character not found" });
+            return res.status(404).json({ message: "Character not found" });
         }
     }
 
