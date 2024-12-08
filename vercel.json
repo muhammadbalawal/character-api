@@ -12,7 +12,7 @@
     ],
     "routes": [
       {
-        "src": "/api/character",
+        "src": "/api/characters",
         "dest": "/api/character.js"
       },
       {
